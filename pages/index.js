@@ -1,12 +1,10 @@
-import Link from "next/link";
+//import descripcion from "../components/descripcion";
+import cta from "../components/cta";
 
 export default function IndexPage() {
   return (
-    <div className="text-2x1 text-blue-700">
-      Hello World.{" "}
-      <Link href="/about">
-        <a>About</a>
-      </Link>
+    <div>
+      <cta />
     </div>
   );
 }
